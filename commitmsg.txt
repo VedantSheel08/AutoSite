@@ -1,0 +1,55 @@
+Initial commit: AutoSite - AI-Powered Resume to Website Generator
+
+Core Features:
+- Flask backend with file upload handling
+- PDF and image resume parsing using pdfplumber and pytesseract
+- Text extraction and processing with spaCy NLP
+- Modern, responsive website template generation
+- Headshot integration support
+- CORS-enabled API endpoints
+
+Technical Implementation:
+- Set up virtual environment with Python 3.8+
+- Installed and configured all dependencies (Flask, spaCy, OpenCV, etc.)
+- Created modular backend structure (app.py, generator.py)
+- Implemented secure file handling and validation
+- Added error handling and logging
+- Created test upload interface
+
+Project Structure:
+- /backend
+  - app.py (Flask application)
+  - generator.py (Text extraction and website generation)
+  - /templates
+    - template.html (Modern responsive website template)
+- /static
+  - /uploads (For resume and headshot files)
+  - /sites (For generated websites)
+- requirements.txt (All dependencies)
+- README.md (Project documentation)
+- test_upload.html (Testing interface)
+
+Dependencies:
+- Flask 3.0.2
+- Werkzeug 3.0.1
+- Jinja2 3.1.3
+- pdfplumber 0.10.3
+- pytesseract 0.3.10
+- OpenCV 4.9.0.80
+- spaCy 3.7.2
+- Other supporting libraries
+
+Testing:
+- Created test upload interface
+- Implemented file type validation
+- Added error handling and user feedback
+- Tested with both PDF and image resumes
+- Verified headshot integration
+- Confirmed responsive design
+
+Documentation:
+- Comprehensive README with setup instructions
+- API documentation
+- Installation requirements
+- Usage examples
+- Project structure overview 
